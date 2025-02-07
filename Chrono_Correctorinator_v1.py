@@ -12,7 +12,7 @@ print("*" * 150)
 print("\nPlease use in full or wider window for best experience.")
 
 
-# Get this block from the Internet to change the creation date of file
+# Change the creation date of file
 def set_creation_time_windows(file_path, creation_time):
     FILE_WRITE_ATTRIBUTES = 0x0100
 
