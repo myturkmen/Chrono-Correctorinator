@@ -18,6 +18,8 @@ Chrono-Correctorinator runs in the command-line interface (CLI). It guides the u
 
 This software creates temporary copies of the original files and adjusts the dates of these copies to protect the original ones. During the adjustment, the software displays the progress percentage, the file status (done/error), the name of the current file, and the output directory. When it is completed, an archived ``.zip`` version will also be provided for future file transfers. Finally, stats like time and success rate will be provided, and the application will be turned off when the user presses "q". 
 
+>**Standalone Version (.exe)**: For users who do not have Python installed or prefer a ready-to-use application, a standalone ``.exe`` version is also available in the repository. It does the  same job without requiring any setup.
+
 ## Warning & limitations
 - Chrono-Correctorinator uses the European date format (**DD/MM/YYYY**).
 - The source folder must only and directly include the misdated files.
